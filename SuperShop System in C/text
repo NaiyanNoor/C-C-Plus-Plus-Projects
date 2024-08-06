@@ -1,0 +1,10 @@
+Features of this SuperShop System
+Add Product: Allows you to add a new product to the shop by entering its name, price, and quantity.
+Display Products: Displays a list of all products with their ID, name, price, and quantity.
+Purchase Product: Allows you to purchase a product by entering the product ID and quantity. It will update the product quantity if the purchase is successful.
+
+How to Use
+Compile the code using a C compiler (e.g., gcc supershop.c -o supershop).
+Run the compiled program (./supershop on Unix-like systems or supershop.exe on Windows).
+Follow the menu to add, display, or purchase products.
+Feel free to expand this basic system with more features like removing products, updating product details, handling input errors, etc.
