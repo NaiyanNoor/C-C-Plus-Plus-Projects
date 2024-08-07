@@ -1,0 +1,14 @@
+Header Files: #include <stdio.h>, #include <stdlib.h>, #include <string.h>, and #include <time.h> are used for input/output, memory management, string operations, and seeding the random number generator, respectively.
+Constants: #define MAX_TRIES 6 sets the maximum number of incorrect guesses.
+Word Selection: An array of words is defined. A random word is selected using rand() % numWords.
+Guessed Letters Array: An array guessed keeps track of which letters in the word have been guessed.
+Game Loop: The main loop continues until the word is guessed or the player runs out of tries. The player inputs a letter, and the program checks if the letter is in the word.
+Printing Functions: printWord() displays the current state of the guessed word. isWordGuessed() checks if all letters have been guessed. printHangman() displays the hangman diagram based on the number of incorrect guesses.
+Compilation and Execution
+To compile and run the program, follow these steps:
+
+Save the code to a file, for example, hangman_game.c.
+Open a terminal and navigate to the directory containing the file.
+Compile the program with gcc -o hangman_game hangman_game.c.
+Run the program with ./hangman_game.
+This code provides a basic structure for a word-guessing game. You can expand it with more words, additional features, or a more complex user interface.
